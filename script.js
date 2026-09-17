@@ -8,7 +8,7 @@
    1. API CONFIGURATION
    Change the base URL here — nowhere else in this file references it directly.
    -------------------------------------------------------------------------- */
-const API_BASE_URL = "http://127.0.0.1:8000"; // same-origin: if FastAPI serves this file, relative paths avoid CORS
+const API_BASE_URL = "https://mansic-santulan-score-8hru.onrender.com"; // same-origin: if FastAPI serves this file, relative paths avoid CORS
 
 const PREDICT_ENDPOINT = `${API_BASE_URL}/predict`;
 const HEALTH_ENDPOINT = `${API_BASE_URL}/health`;
